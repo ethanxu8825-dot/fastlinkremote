@@ -111,6 +111,111 @@ export default function ServicesPage() {
 
       </section>
 
+{/* Detailed Services */}
+<section className="border-t border-cyan-400/10">
+
+  <div className="max-w-7xl mx-auto px-6 py-24">
+
+    <h2 className="text-5xl font-black text-center">
+      Detailed Service Descriptions
+    </h2>
+
+    <p className="mt-6 text-center text-gray-400 max-w-3xl mx-auto">
+      Professional Remote Hands and Smart Hands support throughout Silicon Valley data centers.
+    </p>
+
+    {/* Rack & Stack */}
+    <div className="mt-20">
+
+      <h3 className="text-4xl font-black text-cyan-400">
+        Rack & Stack Services
+      </h3>
+
+      <p className="mt-6 text-gray-300 leading-9">
+        FastLink Remote provides professional Rack & Stack services for customers
+        operating equipment in Silicon Valley data centers including San Jose,
+        Santa Clara, Sunnyvale and Milpitas.
+      </p>
+
+      <p className="mt-4 text-gray-300 leading-9">
+        Our technicians perform server installation, switch deployment,
+        storage installation, rail mounting, cable routing, labeling,
+        inventory verification and rack organization according to customer
+        specifications.
+      </p>
+
+      <ul className="mt-6 space-y-3 text-gray-300">
+        <li>✓ Server installation and removal</li>
+        <li>✓ Network switch deployment</li>
+        <li>✓ Rail kit installation</li>
+        <li>✓ Structured cable routing</li>
+        <li>✓ Asset labeling</li>
+        <li>✓ Photo documentation</li>
+      </ul>
+
+    </div>
+
+    {/* Receiving */}
+    <div className="mt-20">
+
+      <h3 className="text-4xl font-black text-cyan-400">
+        Receiving & Shipping Services
+      </h3>
+
+      <p className="mt-6 text-gray-300 leading-9">
+        FastLink Remote offers receiving and shipping support for customers
+        requiring local logistics assistance in Silicon Valley data centers.
+      </p>
+
+      <p className="mt-4 text-gray-300 leading-9">
+        We can receive hardware shipments, verify inventory, inspect packaging,
+        photograph equipment, stage assets and prepare hardware for deployment.
+      </p>
+
+      <ul className="mt-6 space-y-3 text-gray-300">
+        <li>✓ Receiving incoming shipments</li>
+        <li>✓ Inventory verification</li>
+        <li>✓ Damage inspection</li>
+        <li>✓ Equipment staging</li>
+        <li>✓ Packaging assistance</li>
+        <li>✓ Return shipping coordination</li>
+      </ul>
+
+    </div>
+
+    {/* GPU */}
+    <div className="mt-20">
+
+      <h3 className="text-4xl font-black text-cyan-400">
+        GPU Deployment Services
+      </h3>
+
+      <p className="mt-6 text-gray-300 leading-9">
+        FastLink Remote specializes in GPU server deployment and infrastructure
+        support for AI and high-performance computing environments.
+      </p>
+
+      <p className="mt-4 text-gray-300 leading-9">
+        We assist customers with physical installation, power verification,
+        cable validation, rack mounting, hardware replacement and deployment
+        preparation for GPU clusters.
+      </p>
+
+      <ul className="mt-6 space-y-3 text-gray-300">
+        <li>✓ GPU server installation</li>
+        <li>✓ Power verification</li>
+        <li>✓ Network cable deployment</li>
+        <li>✓ Hardware inspection</li>
+        <li>✓ Component replacement</li>
+        <li>✓ Deployment reporting</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</section>
+
       {/* Why Choose Us */}
       <section className="border-t border-cyan-400/10">
 

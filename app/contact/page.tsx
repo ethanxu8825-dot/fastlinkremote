@@ -1,4 +1,43 @@
+'use client'
+
+import { useState } from 'react'
+
 export default function ContactPage() {
+  const [submitted, setSubmitted] = useState(false)
+  if (submitted) {
+  return (
+    <main className="min-h-screen bg-[#050816] text-white flex items-center justify-center">
+
+      <div className="max-w-2xl text-center px-6">
+
+        <div className="text-7xl mb-6">
+          ✅
+        </div>
+
+        <h1 className="text-5xl font-black">
+          Request Submitted
+        </h1>
+
+        <p className="mt-6 text-xl text-gray-300">
+          Thank you for contacting FastLink Remote.
+        </p>
+
+        <p className="mt-3 text-gray-400">
+          Your request has been received and we will respond as soon as possible.
+        </p>
+
+        <a
+          href="/"
+          className="inline-block mt-10 bg-cyan-400 text-black px-8 py-4 rounded-2xl font-bold"
+        >
+          Return Home
+        </a>
+
+      </div>
+
+    </main>
+  )
+}
   return (
     <main className="min-h-screen bg-[#050816] text-white">
 
@@ -44,10 +83,32 @@ export default function ContactPage() {
   </h2>
 
   <form
-    action="https://formspree.io/f/xpqeajow"
-    method="POST"
-    className="mt-8 space-y-5"
-  >
+  className="mt-8 space-y-5"
+  onSubmit={async (e) => {
+
+    e.preventDefault()
+
+    const form = e.currentTarget
+
+    const formData = new FormData(form)
+
+    const response = await fetch(
+      'https://formspree.io/f/xpqeajow',
+      {
+        method: 'POST',
+        body: formData,
+        headers: {
+          Accept: 'application/json',
+        },
+      }
+    )
+
+    if (response.ok) {
+      setSubmitted(true)
+    }
+
+  }}
+>
 
     <input
       name="name"
