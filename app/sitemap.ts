@@ -6,6 +6,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://fastlinkremote.com",
     },
     {
+       url: "https://fastlinkremote.com/zh",
+       lastModified: new Date(),
+    }
+    {
       url: "https://fastlinkremote.com/services",
     },
     {
