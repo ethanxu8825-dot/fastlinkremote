@@ -53,14 +53,14 @@ return (<main className="min-h-screen bg-[#050816] text-white overflow-hidden">
         <div className="mt-12 flex flex-wrap gap-5">
 
           <a
-            href="/contact"
+            href="/zh/contact"
             className="inline-flex items-center justify-center bg-cyan-400 hover:bg-cyan-300 text-black px-10 py-5 rounded-3xl font-bold transition"
           >
             提交服务请求 →
           </a>
 
           <a
-            href="/services"
+            href="/zh/services"
             className="inline-flex items-center justify-center border border-cyan-400/20 px-10 py-5 rounded-3xl hover:border-cyan-400 hover:text-cyan-400 transition"
           >
             查看服务 →
