@@ -90,6 +90,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
 
     {
+
       url: "https://fastlinkremote.com/blog/choosing-remote-hands-provider",
       lastModified: new Date(),
     },
