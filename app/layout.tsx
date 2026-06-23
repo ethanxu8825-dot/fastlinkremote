@@ -1,3 +1,4 @@
+import Script from "next/script";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -22,20 +23,25 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Professional Remote Hands and Smart Hands services throughout Silicon Valley. Rack & Stack, Receiving & Shipping, GPU Deployment, Hardware Replacement and Emergency Support.",
+  "Professional Remote Hands and Smart Hands services in Silicon Valley data centers. Rack & Stack, Receiving & Shipping, GPU Deployment, Hardware Replacement, Emergency Support and Data Center Logistics across San Jose, Santa Clara, Sunnyvale and Milpitas.",
 
   keywords: [
-    "Remote Hands",
-    "Smart Hands",
-    "Silicon Valley",
-    "San Jose Data Center",
-    "Santa Clara Data Center",
-    "Rack and Stack",
-    "GPU Deployment",
-    "Server Troubleshooting",
-    "Hardware Replacement",
-    "Data Center Support",
-  ],
+  "remote hands",
+  "smart hands",
+  "silicon valley remote hands",
+  "san jose remote hands",
+  "santa clara remote hands",
+  "rack and stack",
+  "gpu deployment",
+  "receiving and shipping",
+  "server installation",
+  "hardware replacement",
+  "data center support",
+  "data center logistics",
+  "emergency remote hands",
+  "bay area remote hands",
+  "silicon valley data center",
+],
 
   openGraph: {
     title: "FastLink Remote",
@@ -64,6 +70,19 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[#050816] text-white">
+      <Script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-TJ7DMM5ESZ"
+/>
+
+<Script id="google-analytics">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TJ7DMM5ESZ');
+  `}
+</Script>
 
   <Header />
 
