@@ -39,7 +39,7 @@ export default function ArticlePage() {
         <div className="mt-12 space-y-8 text-lg text-gray-300 leading-9">
 
           <p>
-            Silicon Valley hosts some of the world's largest
+            Silicon Valley hosts some of the world&apos;s largest
             data centers, AI companies and cloud providers.
             Many organizations need local engineers to perform
             physical work when their own staff cannot be onsite.

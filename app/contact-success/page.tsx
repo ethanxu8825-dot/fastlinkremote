@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ContactSuccessPage() {
   return (
     <main className="min-h-screen bg-[#050816] text-white flex items-center justify-center">
@@ -24,19 +26,19 @@ export default function ContactSuccessPage() {
 
         <div className="mt-12 flex flex-wrap justify-center gap-4">
 
-          <a
+          <Link
             href="/"
             className="bg-cyan-400 text-black px-8 py-4 rounded-2xl font-bold hover:bg-cyan-300 transition"
           >
             Return Home
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/services"
             className="border border-cyan-400/20 px-8 py-4 rounded-2xl hover:border-cyan-400 hover:text-cyan-400 transition"
           >
             View Services
-          </a>
+          </Link>
 
         </div>
 

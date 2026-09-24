@@ -1,39 +1,5 @@
 export default function Home() {
 
-  const services = [
-    {
-      title: 'Rack & Stack',
-      icon: '🗄️',
-    },
-    {
-      title: 'Receiving & Shipping',
-      icon: '📦',
-    },
-    {
-      title: 'Server Troubleshooting',
-      icon: '🛠️',
-    },
-    {
-      title: 'Cable Management',
-      icon: '🔌',
-    },
-    {
-      title: 'GPU Deployment',
-      icon: '⚡',
-    },
-    {
-      title: 'Hardware Replacement',
-      icon: '💾',
-    },
-  ]
-
-  const stats = [
-    ['7x24', 'Emergency Support'],
-    ['30min', 'Average Response'],
-    ['CN/EN', 'Bilingual Support'],
-    ['1000+', 'Completed Tasks'],
-  ]
-
   return (
     <main className="min-h-screen bg-[#050816] text-white overflow-hidden">
 

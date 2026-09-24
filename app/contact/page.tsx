@@ -1,5 +1,6 @@
 'use client'
 
+import Link from "next/link";
 import { useState } from 'react'
 
 export default function ContactPage() {
@@ -26,12 +27,12 @@ export default function ContactPage() {
           Your request has been received and we will respond as soon as possible.
         </p>
 
-        <a
+        <Link
           href="/"
           className="inline-block mt-10 bg-cyan-400 text-black px-8 py-4 rounded-2xl font-bold"
         >
           Return Home
-        </a>
+        </Link>
 
       </div>
 

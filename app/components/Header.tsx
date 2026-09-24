@@ -71,6 +71,8 @@ export default function Header() {
 
           {/* Language Switch */}
           {isChinese ? (
+            // Full document navigation is intentional for locale switching.
+            // eslint-disable-next-line @next/next/no-html-link-for-pages
             <a
               href="/"
               className="text-cyan-300 hover:text-cyan-400"
